@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Shopping website </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">about</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">service</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">contact</a>
+              </li>
+         
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div id="hero" class="position-relative">
+        <video autoplay loop controls src="./pexels_videos_1338593 (1080p).mp4"></video>
+        <h1 class="position-absolute top-0 start-50 right-0 bottom-0 d-flex justify-contant-center align-items-center text-primary"></h1>
+      </div>
+
+      <div id="about" class="contailner">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./pexels-dex-planet-1628026.jpg" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 d-flex flex-column align-items-center justify-content-center">
+                <h2>
+                    about
+                </h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores corrupti ab similique iure. Quos, perspiciatis optio voluptates quo aspernatur, voluptate expedita iusto dolore necessitatibus repellat, pariatur minima debitis sapiente repudiandae.</p>
+            </div>
+        </div>
+      </div>
+
+      <div id="service" class="container ">
+        <div class="row">
+            <h2 class="text-center">service</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="card text-white bg-danger mb-3">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                      <h5 class="card-title">Danger card title</h5>
+                      <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque, et pariatur magni officiis laboriosam culpa eveniet fugiat nihil iure veniam? Repudiandae, id obcaecati. Quibusdam asperiores fugit perspiciatis? Optio, amet possimus.
+                      </p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card text-white bg-dark mb-3" >
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                      <h5 class="card-title">Danger card title</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio consequuntur similique mollitia voluptate explicabo recusandae, architecto autem libero et! Ratione quam quaerat in assumenda sequi nostrum consequatur enim eos blanditiis..
+                      </p>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="card text-white bg-primary mb-3">
+                    <div class="card-header">Header</div>
+                    <div class="card-body">
+                      <h5 class="card-title">Danger card title</h5>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure numquam facilis reiciendis obcaecati at similique consectetur reprehenderit accusamus possimus molestiae voluptas voluptate nihil sequi, aspernatur, quisquam, iusto voluptates eum ut..
+                      </p>
+                    </div>
+                  </div>
+            </div>
+
+            </div>
+        </div>
+      </div>
+
+      <div id="contact" class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="card">
+                    <form>
+                        <input type="text" placeholder="enter your name" 
+                        class="form-control my-2">
+                        <input type="email" placeholder="enter your email" 
+                        class="form-control my-2">
+                        <textarea placeholder="enter your message" 
+                        class="form-control my-2"></textarea>
+                        <input type="submit" value="send" class="btn btn-danger">
+                    </form>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+        </div>
+      </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
